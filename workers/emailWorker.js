@@ -10,9 +10,9 @@ const emailWorker = new Worker(
             const { email, subject, body } = job.data;
             // Simulate sending an email
             console.log(`📨 Sending email to ${email}`);
-            // Here you would integrate with your email service (e.g., nodemailer, SendGrid, etc.)
+            // Here we can integrate with third party email service (e.g., nodemailer, SendGrid, etc.)
             // For example:
-            // await sendEmail(job.data.email, job.data.subject, job.data.body);
+            // await sendEmail(email, subject, body);
 
             // Simulate email delay
             await new Promise(resolve => setTimeout(resolve, 3000));
