@@ -42,7 +42,7 @@ background-jobs-demo/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/background-jobs-demo.git
+git clone git@github.com:umeshsujakhu/background-jobs-demo.git
 cd background-jobs-demo
 ```
 
